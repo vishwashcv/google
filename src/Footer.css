@@ -1,0 +1,27 @@
+.Footer {
+    width: 100vw;
+    background-color: #F2F2F2;
+    color: #797979;
+    margin-top: 30.9vh;
+}
+
+.footer-section {
+    display: flex;
+}
+.country {
+    padding: 20px;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.content-1 {
+    display: flex;
+}
+
+.content-1 > p{
+    margin-left: 20px;
+}
+
+.space-1{
+    padding: 0 33%;
+}
+
