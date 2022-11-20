@@ -2,7 +2,8 @@
     width: 100vw;
     background-color: #F2F2F2;
     color: #797979;
-    margin-top: 30.9vh;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer-section {
@@ -25,3 +26,24 @@
     padding: 0 33%;
 }
 
+
+@media screen and (max-width: 1280px) {
+    .space-1{
+        padding: 0 24%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .Footer{
+        margin-top: 0;
+        position: absolute;
+        bottom: 0;
+    }
+    .Footer{
+        font-size: 70% !important;
+    }
+    .footer-section{
+        display: block;
+    }
+}

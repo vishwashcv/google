@@ -37,7 +37,7 @@ outline:none;
 
 .mic {
   position: absolute;
-  width: 15px;
+  width: 14px;
   top: 398px;
   left: 61.7%;
 }
@@ -87,3 +87,107 @@ a:hover {
   border-bottom: 1px solid ;
 }
 
+@media screen and (max-width: 1280px){
+    .searchicon{
+      left: 27%;
+    }
+    .mic {
+      padding-top: 2px;
+      left:  68%;
+      width: 12px;
+    }
+    .camera {
+      padding-top: 2px;
+      left: 70.5%;
+      width: 22px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 200px;
+  }
+  .searchbox {
+      width: 220px;
+      height: 35px;
+  }
+
+  .searchicon {
+    top: 39.4%;
+    left: 12%;
+  }
+  .mic {
+    top: 39.8%;
+    left:  77%;
+    width: 12px;
+  }
+  .camera {
+    top: 39.5%;
+    left: 82.2%;
+    width: 22px;
+  }
+  .button {
+    font-size: 80%;
+  }
+  .lang {
+    font-size: 70%;
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .searchbox{
+    max-width: 220px;
+    height: 35px;
+      padding-left: 30px;
+  padding-right: 60px;
+  }
+  .searchicon {
+    top: 41.5%;
+    left: 12%;
+  }
+  .mic {
+    top: 41.6%;
+    left:  76%;
+    width: 12px;
+  }
+  .camera {
+    top: 41.2%;
+    left: 82%;
+    width: 22px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .App-header {
+    padding-top: 60%;
+  }
+  .logo {
+    width: 180px;
+  }
+  .searchbox {
+      width: 220px;
+      height: 35px;
+      padding-left: 30px;
+  padding-right: 60px;
+  }
+  .searchicon {
+    top: 50.6%;
+    left: 12%;
+  }
+  .mic {
+    top: 51%;
+    left:  76%;
+    width: 12px;
+  }
+  .camera {
+    top: 50.7%;
+    left: 82.2%;
+    width: 22px;
+  }
+  .lang{
+    font-size: 64%;
+  }
+}
