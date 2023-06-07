@@ -10,10 +10,24 @@ function App() {
       <center>
         <header className="App-header">
         <img  className="logo" src={logo} /><br/>
-        <input className='searchbox' />
+        <div className='poc'>
+        <div className='abso'>
+          <div className='sb'>
+        <div>
         <img className="searchicon" src={searchicon} />
+        </div>
+        <div>
+          <div className='ri'>
         <img className="mic" src={mic} />
+        </div>
+        <div>
         <img className="camera" src={camera} />
+        </div>
+        </div>
+        </div>
+        <input className='searchbox' />
+        </div>
+        </div>
         <div className='buttons'>
           <button className='button'>Google Search</button>
           <div className='space'></div>

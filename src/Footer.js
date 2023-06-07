@@ -9,7 +9,7 @@ function Footer() {
         <p>About</p>
         <p>Advertising</p>
         <p>Business</p>
-        <p>How Search works</p>
+        <p className="hsw">How Search works</p>
         </div>
         <div className="space-1"></div>
         <div className="content-1">

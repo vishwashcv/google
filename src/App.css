@@ -27,26 +27,44 @@ outline:none;
   box-shadow: 2px 2px 5px #DFDFDF;
 }
 
+.abso{
+  position: relative;
+}
+
+.sb{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 22px;
+  background-color: #1a0dbe;
+}
+
+.poc{
+  display: flex;    
+  justify-content: center;
+}
+
+.ri{
+  margin-right: 70px;
+}
+
 .searchicon {
   position: absolute;
-  width: 25px;
+  width: 24px;
   filter: brightness(150%);
-  top: 397px;
-  left: 34.5%;
+  padding: 10px 10px;
 }
 
 .mic {
   position: absolute;
   width: 14px;
-  top: 398px;
-  left: 61.7%;
+  margin-right: 12px;
+  padding: 10px 10px;
 }
 
 .camera {
   position: absolute;
-  width: 27px;
-  top: 396px;
-  left: 63.7%;
+  width: 26px;
+  padding: 8px 8px;
 }
 
 
@@ -59,10 +77,11 @@ outline:none;
 .button {
   border: none;
   background-color: #F8F9FA;
-  padding: 12px 22px;
+  border: 1px solid transparent;
+  padding: 8px 14px;
   margin: 30px 0 10px 0;
   font-size: 100%;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 .button:hover {
@@ -88,19 +107,6 @@ a:hover {
 }
 
 @media screen and (max-width: 1280px){
-    .searchicon{
-      left: 27%;
-    }
-    .mic {
-      padding-top: 2px;
-      left:  68%;
-      width: 12px;
-    }
-    .camera {
-      padding-top: 2px;
-      left: 70.5%;
-      width: 22px;
-    }
 }
 
 
@@ -112,20 +118,14 @@ a:hover {
       width: 220px;
       height: 35px;
   }
-
-  .searchicon {
-    top: 39.4%;
-    left: 12%;
+  .searchicon{
+    padding-top: 7px;
   }
-  .mic {
-    top: 39.8%;
-    left:  77%;
-    width: 12px;
+  .mic{
+    padding-top: 9px;
   }
-  .camera {
-    top: 39.5%;
-    left: 82.2%;
-    width: 22px;
+  .camera{
+    padding-top: 6px; 
   }
   .button {
     font-size: 80%;
@@ -143,20 +143,6 @@ a:hover {
       padding-left: 30px;
   padding-right: 60px;
   }
-  .searchicon {
-    top: 41.5%;
-    left: 12%;
-  }
-  .mic {
-    top: 41.6%;
-    left:  76%;
-    width: 12px;
-  }
-  .camera {
-    top: 41.2%;
-    left: 82%;
-    width: 22px;
-  }
 }
 
 
@@ -172,20 +158,6 @@ a:hover {
       height: 35px;
       padding-left: 30px;
   padding-right: 60px;
-  }
-  .searchicon {
-    top: 50.6%;
-    left: 12%;
-  }
-  .mic {
-    top: 51%;
-    left:  76%;
-    width: 12px;
-  }
-  .camera {
-    top: 50.7%;
-    left: 82.2%;
-    width: 22px;
   }
   .lang{
     font-size: 64%;

@@ -8,6 +8,7 @@
 
 .footer-section {
     display: flex;
+    justify-content: space-between;
 }
 .country {
     padding: 20px;
@@ -16,22 +17,17 @@
 
 .content-1 {
     display: flex;
+    padding-right: 20px;
 }
 
 .content-1 > p{
     margin-left: 20px;
 }
 
-.space-1{
-    padding: 0 33%;
+.hsw{
+    width: 160px;
 }
 
-
-@media screen and (max-width: 1280px) {
-    .space-1{
-        padding: 0 24%;
-    }
-}
 
 
 @media screen and (max-width: 768px){
