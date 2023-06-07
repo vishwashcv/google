@@ -51,7 +51,7 @@ outline:none;
   position: absolute;
   width: 24px;
   filter: brightness(150%);
-  padding: 10px 10px;
+  padding: 10px 12px;
 }
 
 .mic {
@@ -140,7 +140,7 @@ a:hover {
   .searchbox{
     max-width: 220px;
     height: 35px;
-      padding-left: 30px;
+      padding-left: 35px;
   padding-right: 60px;
   }
 }
@@ -156,7 +156,7 @@ a:hover {
   .searchbox {
       width: 220px;
       height: 35px;
-      padding-left: 30px;
+      padding-left: 35px;
   padding-right: 60px;
   }
   .lang{

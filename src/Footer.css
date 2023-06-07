@@ -43,3 +43,10 @@
         display: block;
     }
 }
+
+@media screen and (max-width: 468px){
+    .Footer{
+        margin-top: 42vh;
+        position: relative;
+    }
+}
